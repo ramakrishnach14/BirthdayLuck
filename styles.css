@@ -1,0 +1,91 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	background-image: url(./images/birthday.jpg);
+
+}
+
+
+:root{
+	--primary-color: #EEC9BC;
+}
+
+.content{
+	max-width: 500px;
+	min-height: 200px;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	/*padding: 2rem 1rem;*/
+}
+
+.content_appDescription{
+	background-color: var(--primary-color);
+	width: 100%;
+	min-height: 200px;
+	margin-top: 20rem;
+	opacity: 0.8;
+}
+
+.content_main_content{
+	background-color: var(--primary-color);
+	width: 100%;
+	min-height: 1000px;
+	font-size: 1.4rem;
+	margin-top: 25rem;
+}
+
+.content_main_privacy{
+	color: red;
+	max-width: 350px;
+	margin:auto;
+	width: 100%;
+	font-size: 1rem;
+}
+
+.content_main_privacy p{
+	border: 1px solid;
+	padding: 1rem;
+	margin-top: 0rem;
+}
+
+.privacy_note{
+	color: red;
+	font-weight: bold;
+}
+
+input{
+	width: 30%;
+	padding: 1rem;
+	height: 30px;
+	display: block;
+	margin: 1rem auto;
+}
+
+button{
+	padding: 0.5rem 1rem;
+	display: block;
+	font-size: 1rem;
+	border: none;
+	margin:  1rem auto 4rem auto;
+	/*background-color: var(--brightBlue);*/
+	color: var(--babyBlue);
+}
+
+#content_image{
+	display: none;
+}
+
+#con_image{
+	width: 300px;
+	height: 300px;
+
+}
+
+.error{
+	display: none;
+	font-size: 1.5rem;
+}

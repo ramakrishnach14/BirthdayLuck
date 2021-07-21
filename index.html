@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Birthday lucky?</title>
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+	<div class="container">
+		<div class="content">
+			<div class="content_appDescription">
+				<h1>Is your birthday Lucky?</h1>
+				<p><a href="#content_main_content">Scroll down to find out</a></p>
+			</div>
+			<div class="content_main_content" id ="content_main_content">
+				<div class="content_main_privacy">
+					<p><span class="privacy_note">Privacy Note!</span> We are not storing your data</p>
+				</div>
+				<div>
+					<h4>Enter your Birthdate and lucky number to continue....</h4>
+					<p>Select your BirthDate</p>
+					<input type="date" id="birth_date" name="trip-start"
+       					value="2018-07-22"
+       							min="1000-01-01" max="2021-12-31">
+					<p>Enter your lucky number</p>
+					<input type="number" name="lucky_number" id="lucky_number">
+					<button id ="check">Check</button>
+				</div>
+				<div class="error">
+					
+				</div>
+				<div id="content_image">
+					<p id="message">Hurray</p>
+					<img src="" id ="con_image"/>
+				</div>
+				
+			</div>
+			<div class="footer">
+					<a href=""><p>Twitter</p></a>
+					<a href=""><p>GitHub</p></a>
+			</div>
+			
+		</div>
+	</div>
+
+
+	<script type="text/javascript" src="./app.js"></script>
+</body>
+</html>
