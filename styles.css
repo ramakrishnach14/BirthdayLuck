@@ -89,3 +89,26 @@ button{
 	display: none;
 	font-size: 1.5rem;
 }
+
+.footer{
+	background-color: var(--primary-color);
+	width: 100%;
+	min-height: 25px;
+	font-size: 1rem;
+	margin-top: 1rem;
+}
+
+.list-non-bullet{
+	list-style: none;
+	padding-top:1rem;
+	padding-bottom: 1rem;
+}
+
+.list-item-inline{
+	display: inline;
+	padding: 0rem 1rem;
+}
+
+.list-item-inline a {
+	text-decoration: none;
+}
